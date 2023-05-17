@@ -1,0 +1,48 @@
+body{
+    margin:0px
+}
+
+.parent{
+    height: 465px;
+    width:600px;
+    background-color: black;
+    float: left;
+    margin-left: 485px;
+    margin-top:10px ;
+}
+
+#header{
+    height:200px;
+    width: 250px;
+    background-color: antiquewhite;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.content1{
+    height:200px;
+    width: 250px;
+    background-color:brown;
+    float: right;
+    margin-right:20px;
+    margin-top: 20px;
+}
+
+.content2{
+    height:200px;
+    width: 250px;
+    background-color:coral;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px; 
+}
+
+.footer{
+    height:200px;
+    width: 250px;
+    background-color:darkgray;
+    float: right;
+    margin-right:20px;
+    margin-top: 20px;
+}

@@ -1,0 +1,18 @@
+body{
+    margin:0px;
+}
+#header{
+    height:300px;
+    width: auto;
+    background-color: #99CC33;
+}
+.content{
+    height:300px;
+    width:auto;
+    background-color: #990033;
+}
+.footer{
+    height: 300px;
+    width: auto;
+    background-color: #6600FF;
+}
