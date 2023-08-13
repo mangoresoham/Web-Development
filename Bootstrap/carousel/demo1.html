@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .p1{
+            height: 400px;
+            width: auto;
+        }
+
+        .p3{
+            height: 200px;
+            width: auto;
+            background-color: pink;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid p3"><h1 style="padding-top: 40px;">Header</h1></div>
+    <div class="container p1">
+        <h2>Carousel Demo</h2>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img1.jpg" alt="first image" width="1100" height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="img2.jpg" alt="second image" width="1100" height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="img3.jpg " alt="third image" width="1100" height="500">
+                </div>
+            </div>
+
+            <!-- Left and Right Controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
