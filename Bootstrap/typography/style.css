@@ -1,0 +1,15 @@
+.first{
+    height:200px;
+    width:auto;
+    background-color: #0C6;
+}
+
+.second{
+    height:200px;
+    width:auto;
+    background-color: #0C9;
+}
+
+.navbar .navbar-nav li a{
+    color: #FFFFFF;
+}

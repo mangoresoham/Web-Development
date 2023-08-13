@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee form</title>
+    <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1><center>Employee Form</center></h1>
+        <div class="row">
+            <div class="col-md-12">
+                <form>
+                    <!-- name -->
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" name="t1" placeholder="Enter Name" class="form-control" required>
+                    </div>
+
+                    <!-- Employee Number -->
+                    <div class="form-group">
+                        <label>Employee Number</label>
+                        <input type="text" name="t2" placeholder="Enter Emp No." class="form-control" required>
+                    </div>
+                    
+                    <!-- Salary-->
+                    <div class="form-group">
+                        <label>Salary</label>
+                        <input type="text" name="t3" placeholder="Enter Salary" class="form-control" required>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="submit" name="submit" value="Submit" class="btn btn-primary btn-lg">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="reset" name="reset" value="reset" class="btn btn-danger btn-sm">
+                        </div>   
+                    </div>
+
+                    <br>
+                    <!-- long buttons text-center-->
+                    <div class="row">
+                        <div class="col-md-6 text-center">
+                            <input type="submit" name="submit" value="Submit" class="btn btn-primary btn-lg">
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <input type="reset" name="reset" value="reset" class="btn btn-danger btn-lg">
+                        </div>   
+                    </div>
+
+                    <br>
+                    <!-- types of buttons roundrd-pill, round1-->
+                    <div class="row">
+                        <div class="col-md-6 text-center">
+                            <input type="submit" name="submit" value="Submit" class="btn btn-primary rounded-pill" style="width:250px;margin-top:10px;margin-left:10px">
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <input type="reset" name="reset" value="reset" class="btn btn-danger round1" style="width:250px;margin-top:10px;margin-left:10px" onclick="return disp();"/>
+                        </div>   
+                    </div>
+
+
+
+
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js\jquery-3.3.1.js"> </script>
+    <script src="js\bootstrap.min.js"></script>
+</body>
+</html>

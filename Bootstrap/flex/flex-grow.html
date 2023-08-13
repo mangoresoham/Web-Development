@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Grow</title>
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-3">
+        <h2>Flex Grow</h2>
+        <p>Use .flex-grow-1 on flex items to take up the rest of the space:</p>       
+        
+        <div class="d-flex mb-3">
+            <div class="p-2  bg-info">flex Item 1</div>
+            <div class="p-2 flex-grow-1 bg-warning">flex Item 2</div>
+            <div class="p-2 flex-grow-1 bg-primary">flex Item 3</div>
+        </div>
+
+        <p>Without .flex-grow-1:</p>       
+        
+        <div class="d-flex mb-3">
+            <div class="p-2 bg-info">flex Item 1</div>
+            <div class="p-2 bg-warning">flex Item 2</div>
+            <div class="p-2 bg-primary">flex Item 3</div>
+        </div>
+    
+    </div>   
+        <script src="js\jquery-3.3.1.js"> </script>
+        <script src="js\bootstrap.min.js"></script>
+</body>
+</html>

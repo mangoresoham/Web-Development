@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <style>
+        .first{
+            color:aliceblue
+        }
+        a:hover{
+            color: pink;
+        }
+        .navbar-brand{
+            color:blue !important;
+        }
+        .navbar-brand:hover{
+            color:chocolate !important
+        }
+        .nav-link{
+            color:green  !important
+        }
+        .nav-link:hover{
+            color:white  !important
+        }
+    </style>
+</head>
+<!-- Prog to create custom color scheme -->
+<body>
+    <nav class="navbar navbar-expand-sm navcolor">
+
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mymenu">
+            <span class="navbar-toggler-icon"> /span>   
+        </button>
+
+    <div class="collapse navbar-collapse" id="mymenu">
+        <a href="#" class="navbar-brand first">
+
+            <img src="/Bootstrap/carousel/img2.jpg" height="50px" width="80px" alt="">
+            &nbsp;&nbsp;Excel Computers</a>
+
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+            </ul>
+    </div>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
