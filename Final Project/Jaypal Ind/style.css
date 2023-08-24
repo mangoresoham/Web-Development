@@ -1,0 +1,158 @@
+/* Logo Color :#00A8F3 */
+
+html{
+    scroll-behavior: smooth;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.navbar{
+    background-color: white;
+    position:fixed;
+}
+
+/* item fonts */
+.header a{
+    color:black !important;
+    font-family: sans-serif;
+    font-size: larger;
+    /* font-weight: bold; */
+}
+
+.header li :hover{
+    color: #00A8F3 !important;
+}
+
+/* spacing between items */
+.header li{
+    margin-right: 50px !important;
+}
+
+/* image */
+.image{ 
+
+    /* margin-right: -11px; */
+    display:flex;
+    width:fit-content;
+    height: auto;
+    margin-top: 80px;
+    /* margin-left:-15px; */
+}
+
+/* Carousal */
+/* Customer Arena */
+.cust_arena{
+    text-align: center;
+}
+
+@media(max-width:1000px) and (min-width:530px){
+    .img-fluid{
+        width:100px !important;
+        height:100px !important;
+    }
+}
+
+.map{
+    margin-top: -32px;
+}
+
+
+/* map */
+.map{
+    position: relative;
+    height: auto;
+    width:100%;
+}
+/* footer */
+.footer{
+    padding: 60px 80px;
+    background-color: black;
+    color: white;
+}
+.footer h3{
+    color: #00A8F3;
+}
+
+.footer p{
+    text-align: justify;
+}
+
+.footer ul li{
+    list-style: none;
+}
+
+.footer ul li:hover{
+    list-style: none;
+    color: #00A8F3;
+    cursor:pointer;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* CONTACT US */
+
+.headerimg{
+    background-color: #00A8F3;
+    margin-top: 85px;
+    height: 150px;
+}
+
+.txt h3{
+    color: white;
+    padding-top: 35px;
+    padding-left: 50px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.txt p{
+    color: white;
+    padding-left: 50px;
+    font-weight: 300;
+}
+
+.txt a{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width:1000px) and (min-width:530px){
+    .fa-map-location-dot{
+        margin-left: -100px;
+    }
+
+    .address{
+        margin-left: -110px;
+    }
+
+    .fa-phone{
+        margin-left: -130px;
+    }
+    .phone{
+        margin-left: -130px;
+    }
+    }
+    
+
+
+.contact{
+    text-align: center;
+    padding: 60px 80px;
+}
+
+.contact h3{
+    text-align: justify;
+}
+.contact p{
+    font-size: large;
+    color: grey;
+    text-align: justify;
+}
