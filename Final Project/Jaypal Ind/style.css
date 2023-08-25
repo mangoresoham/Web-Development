@@ -124,7 +124,7 @@ html{
     color: white;
 }
 
-@media(max-width:1000px) and (min-width:530px){
+/* @media(max-width:1000px) and (min-width:530px){
     .fa-map-location-dot{
         margin-left: -100px;
     }
@@ -139,13 +139,13 @@ html{
     .phone{
         margin-left: -130px;
     }
-    }
+    } */
     
 
 
 .contact{
     text-align: center;
-    padding: 60px 80px;
+    padding-top: 50px;
 }
 
 .contact h3{
