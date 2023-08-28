@@ -153,6 +153,17 @@ html{
 }
 .contact p{
     font-size: large;
-    color: grey;
     text-align: justify;
+}
+
+@media(max-width:600px){
+    .contact{
+        margin-bottom: -50px;
+    }
+    .col-md-4{
+        padding: 5px;
+    }
+    .icons{
+        padding: 15px;
+    }
 }
