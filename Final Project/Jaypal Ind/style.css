@@ -34,13 +34,9 @@ html{
 
 /* image */
 .image{ 
-
-    /* margin-right: -11px; */
-    display:flex;
-    width:fit-content;
     height: auto;
     margin-top: 80px;
-    /* margin-left:-15px; */
+    max-width: 100%;
 }
 
 /* Carousal */
@@ -65,9 +61,11 @@ html{
 /* map */
 .map{
     position: relative;
-    height: auto;
+    height:inherit;
     width:100%;
 }
+
+
 /* footer */
 .footer{
     padding: 60px 80px;
@@ -167,4 +165,11 @@ html{
     .icons{
         padding: 15px;
     }
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* PRODUCTS */
+
+.product-header{
+    margin-top: 85px;
 }
