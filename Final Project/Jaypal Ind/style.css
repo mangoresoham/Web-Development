@@ -101,12 +101,10 @@ html{
 .headerimg{
     background-color: #00A8F3;
     margin-top: 85px;
-    height: 150px;
 }
 
 .txt h3{
     color: white;
-    padding-top: 35px;
     padding-left: 50px;
     text-decoration: none;
     font-size: 30px;
@@ -116,6 +114,7 @@ html{
     color: white;
     padding-left: 50px;
     font-weight: 300;
+    margin: 0px;
 }
 
 .txt a{
@@ -170,6 +169,10 @@ html{
 /* ------------------------------------------------------------------------------------------------------------------------------------ */
 /* PRODUCTS */
 
-.product-header{
+/* .product-header{
     margin-top: 85px;
+} */
+
+@media(max-width:600px){
+
 }
