@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jaypal Industries</title>
-    <link rel="icon" href="/Jaypal Ind/icon.png">
+    <link rel="icon" href="icon.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/Final Project/fontawesome-free-6.4.0-web/css/all.min.css">
     <link rel="stylesheet" href="/Final Project/fontawesome-free-6.4.0-web/css/fontawesome.min.css">
+    <script language="javascript">
+        function thank(){
+            alert("Thankyou for you feedback !");
+        }
+    </script>
 </head>
 <body>
     <!-- Header -->
@@ -54,7 +59,7 @@
         
     </div>
     
-    <div class="sus container pt-2 pb-5">
+    <div class="sus container pt-2">
         <!-- mainrow -->
         <div class="d-flex justify-content-between bg-white mb-3">
             <div class="container-fluid">
@@ -117,7 +122,38 @@
         </div>
     </div>
 
-
+    <!-- Feedback Form -->
+    <div class="container-fluid gradient-feedback pb-5 pt-3 text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-mg-12 col-sm-12  rounded-left">
+                    <div class="bg-white">
+                        <img class="img-fluid pt-3 pb-3" src="Photos Works/feedback.jpg" alt="feedback">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-mg-12 col-sm-12 rounded">
+                    <form action="homepage.html">
+                        <div class="form-group mb-3">
+                            <label for="exampleInputName1">Name</label>
+                            <input type="text" class="form-control" id="exampleInputName1" placeholder="Enter Name">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text">*We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="exampleInputMessage">Message</label>
+                            <textarea style="height: 109px;" type="textarea" class="form-control" id="exampleInputMessage" placeholder="Message"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" onclick="thank()">Submit</button>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -128,7 +164,7 @@
 
      <!-- footer -->
  
-     <div class="footer container-fluid ">
+     <div class="footer container-fluid pb-0">
         <!-- <div class="container footer bg-dark"> -->
             <div class="row">
                 <div class="col-md-6"><h3>About Us</h3>
@@ -147,7 +183,9 @@
                         <br>+91 9766146061</p>
                 </div>
             </div>
+            <div class="row justify-content-center p-3"> <footer>&copy; Copyright 2023 HTML.am</footer></div>
     </div>
+
 
     <!-- <script src="/js/jquery-3.3.1.js"> </script>
     <script src="/js/bootstrap.min.js"></script>     -->

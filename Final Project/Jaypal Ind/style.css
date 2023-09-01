@@ -53,16 +53,13 @@ html{
 }
 
 
-.map{
-    margin-top: -32px;
-}
-
 
 /* map */
 .map{
     position: relative;
     height:inherit;
     width:100%;
+    margin-top: -32px;
 }
 
 
@@ -94,6 +91,11 @@ html{
     text-decoration: none;
     color: white;
 }
+
+.footer footer{
+    color:white;
+}
+
 
 /* ------------------------------------------------------------------------------------------------------------------------------------ */
 /* CONTACT US */
@@ -175,3 +177,11 @@ html{
 
 /* ------------------------------------------------------------------------------------------------------------------------------------ */
 /* ABOUT US */
+
+.about-title{
+    color:#00A8F3;
+}
+
+.gradient-feedback{
+    background-image: linear-gradient(to left,#007BFF,black);
+}
